@@ -1,0 +1,59 @@
+.sidemenu{
+    margin:0px 20px;
+    width: 15%;
+}
+.sidemenu ul {
+    display: block;
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.6);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidemenu li a {
+    display: block;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.6);
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.content{
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 0px;
+    width: 70%;
+    background-color: rgba(255,255,255,0.7);
+}
+.main{
+    float: left;
+}
+.row{
+    margin: 0;
+}
+.row:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.footer{
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+}
+.row li a:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+/* 搜索框 */
+.firstmenu input{
+    font-size: 15px;
+	padding: 10px 20px;
+	width: 200px;
+	margin: 10px auto;
+	border-radius: 6px;
+	border: 0;
+    background-color: rgba(255,255,255,0.8);
+    float: right;
+}

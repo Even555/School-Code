@@ -1,0 +1,18 @@
+.content{
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 0px;
+    width: 70%;
+    margin:auto;
+    background-color: rgba(255,255,255,0.7);
+}
+.row:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.footer{
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+}
